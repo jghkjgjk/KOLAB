@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+}
+header{
+    display: flex;
+    top: 0;
+    width: 100%;
+    background-color: #c59e7a;
+    justify-content: center;
+    position: fixed;
+}
+nav{
+    padding: 10px;
+}
+nav a{
+    padding: 10px 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+nav a:hover{
+color: rgba(255, 255, 255, 0.815);
+background-color: #bd8e61;
+transition: 0.4s;
+font-size: 20px;
+}
+section.Home{
+    height: 800px;
+    background: url("Image1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 600px;
+}
+section.About{
+height: 800px;
+background-color: rgb(197, 174, 131);
+}
+section.Product{
+    height: 800px;
+    background-color: #b4885f;
+}
+section.Contact{
+    height: 800px;
+    background-color: rgb(197, 174, 131);
+    }
+.footer{
+    height: 100px;
+    background-color: black;
+}
